@@ -4,4 +4,28 @@
     
     <!--  TODO: exercise 6a -->
 
+ 
+  <item
+    android:id="@+id/action_insert"
+    android:icon="@drawable/insert"
+    android:orderInCategory="100"
+    android:showAsAction="ifRoom"
+    android:title="@string/insert"/>
+ 
+  <item
+    android:id="@+id/action_update"
+    android:icon="@drawable/update"
+    android:orderInCategory="100"
+    android:showAsAction="ifRoom"
+    android:title="@string/update"/>
+ 
+  <item
+    android:id="@+id/action_delete"
+    android:icon="@drawable/delete"
+    android:orderInCategory="100"
+    android:showAsAction="ifRoom"
+    android:title="@string/delete"/>    
+ 
 </menu>
+
+
